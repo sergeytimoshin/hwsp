@@ -24,6 +24,12 @@
 		059C01EC2563D2C100F09582 /* ProjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C01EB2563D2C100F09582 /* ProjectHeaderView.swift */; };
 		059C01EF2563D52F00F09582 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059C01EE2563D52F00F09582 /* Colors.xcassets */; };
 		059C01F32563DAF600F09582 /* EditProjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C01F22563DAF600F09582 /* EditProjectView.swift */; };
+		059C01FB2564689E00F09582 /* Sequence-Sorting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C01FA2564689E00F09582 /* Sequence-Sorting.swift */; };
+		059C01FF2565034E00F09582 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C01FE2565034E00F09582 /* SelectSomethingView.swift */; };
+		059C02022565054500F09582 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C02012565054500F09582 /* Bundle-Decodable.swift */; };
+		059C020525650A4A00F09582 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 059C020425650A4A00F09582 /* Awards.json */; };
+		059C020825650AF300F09582 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C020725650AF300F09582 /* Award.swift */; };
+		059C020B25650B9300F09582 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C020A25650B9300F09582 /* AwardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +53,12 @@
 		059C01EB2563D2C100F09582 /* ProjectHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectHeaderView.swift; sourceTree = "<group>"; };
 		059C01EE2563D52F00F09582 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		059C01F22563DAF600F09582 /* EditProjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProjectView.swift; sourceTree = "<group>"; };
+		059C01FA2564689E00F09582 /* Sequence-Sorting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sequence-Sorting.swift"; sourceTree = "<group>"; };
+		059C01FE2565034E00F09582 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		059C02012565054500F09582 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		059C020425650A4A00F09582 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Awards.json; sourceTree = "<group>"; };
+		059C020725650AF300F09582 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		059C020A25650B9300F09582 /* AwardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,9 @@
 		059898D025618B66007A1AEF /* Portfolio */ = {
 			isa = PBXGroup;
 			children = (
+				059C020425650A4A00F09582 /* Awards.json */,
+				059C020725650AF300F09582 /* Award.swift */,
+				059C020A25650B9300F09582 /* AwardsView.swift */,
 				059C01CF2563B5C400F09582 /* Portfolio.entitlements */,
 				059898DA25618B67007A1AEF /* Info.plist */,
 				059C01E82563CE9000F09582 /* Binding-OnChange.swift */,
@@ -95,6 +110,9 @@
 				059C01DE2563C20600F09582 /* Project-CoreDataHelpers.swift */,
 				059C01EB2563D2C100F09582 /* ProjectHeaderView.swift */,
 				059C01D82563B6FF00F09582 /* ProjectsView.swift */,
+				059C02012565054500F09582 /* Bundle-Decodable.swift */,
+				059C01FE2565034E00F09582 /* SelectSomethingView.swift */,
+				059C01FA2564689E00F09582 /* Sequence-Sorting.swift */,
 				059898D525618B67007A1AEF /* Assets.xcassets */,
 				059C01EE2563D52F00F09582 /* Colors.xcassets */,
 				059898E125618CB5007A1AEF /* Main.xcdatamodeld */,
@@ -177,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				059C01EF2563D52F00F09582 /* Colors.xcassets in Resources */,
+				059C020525650A4A00F09582 /* Awards.json in Resources */,
 				059898D925618B67007A1AEF /* Preview Assets.xcassets in Resources */,
 				059898D625618B67007A1AEF /* Assets.xcassets in Resources */,
 			);
@@ -191,13 +210,18 @@
 			files = (
 				059C01D92563B6FF00F09582 /* ProjectsView.swift in Sources */,
 				059C01EC2563D2C100F09582 /* ProjectHeaderView.swift in Sources */,
+				059C020B25650B9300F09582 /* AwardsView.swift in Sources */,
 				059898E325618CB5007A1AEF /* Main.xcdatamodeld in Sources */,
 				059C01CD2563AFD100F09582 /* DataController.swift in Sources */,
 				059C01F32563DAF600F09582 /* EditProjectView.swift in Sources */,
 				059898D425618B66007A1AEF /* ContentView.swift in Sources */,
+				059C01FF2565034E00F09582 /* SelectSomethingView.swift in Sources */,
+				059C020825650AF300F09582 /* Award.swift in Sources */,
 				059C01E62563CC9A00F09582 /* ItemRowView.swift in Sources */,
 				059C01D52563B69600F09582 /* HomeView.swift in Sources */,
 				059C01E92563CE9000F09582 /* Binding-OnChange.swift in Sources */,
+				059C01FB2564689E00F09582 /* Sequence-Sorting.swift in Sources */,
+				059C02022565054500F09582 /* Bundle-Decodable.swift in Sources */,
 				059C01DF2563C20600F09582 /* Project-CoreDataHelpers.swift in Sources */,
 				059898D225618B66007A1AEF /* PortfolioApp.swift in Sources */,
 				059C01DC2563C15000F09582 /* Item-CoreDataHelpers.swift in Sources */,
