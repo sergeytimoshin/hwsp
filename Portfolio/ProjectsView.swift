@@ -129,7 +129,6 @@ struct ProjectsView_Previews: PreviewProvider {
         ProjectsView(showClosedProjects: false)
             .environment(\.managedObjectContext, dataController.container.viewContext)
             .environmentObject(dataController)
-            .preferredColorScheme(.dark)
 
     }
 }

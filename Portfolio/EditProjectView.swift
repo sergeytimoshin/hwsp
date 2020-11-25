@@ -98,6 +98,7 @@ struct EditProjectView: View {
 }
 
 struct EditProjectView_Previews: PreviewProvider {
+    
     static var previews: some View {
         Group {
             EditProjectView(project: Project.example)
